@@ -5,8 +5,7 @@
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    animation: fade-in 755ms ease-in-out;    
-    background-image: url(./Images/bg-intro-desktop.png);
+    animation: fade-in 755ms ease-in-out;
 }
 .pic-1fhed{
     height: 50px;
