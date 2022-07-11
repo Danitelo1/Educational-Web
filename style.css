@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fade-in 755ms ease-in-out;    
+    background-image: url(./Images/bg-intro-desktop.png);
+}
+.pic-1fhed{
+    height: 50px;
+    width: 100px;
+    display: inline;
+}
+.pic-2fhed{
+    height: 60px;
+    width: 50px;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+}
+.fhed1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fhed2 {
+    color: green;
+}
+#fhed {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    border: none;
+}
+.f1main{
+    width: 100%;
+    height: 36.7pc;
+    box-shadow: 10pc;
+}
+.fmain1{
+    font-size: 2em;
+}
+.fmain2{
+    color: green;
+}
+.search {
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+#smain {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 32.9em;
+    width: 35.1em;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1em;
+    font-family: cursive;
+}
+.s1main{
+    height: 20em;
+    width: 35.1em;
+    border: none;
+    border-radius: 10%;
+}
+.s2main {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+.s3main{
+    float: right;
+    size: 2em;
+    background-color: green;
+    border-radius: 2px;
+    width: 100px;
+}
+h3{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.s4main {
+    float: left;
+    font-size: 1em;
+}
+button{
+    height: 30px;
+    width: 100%;
+    display: block;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+#tmain{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 32.9em;
+    width: 35.1em;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1em;
+    font-family: cursive;
+}
+.t1main {
+    height: 20em;
+    width: 35.1em;
+    border: none;
+    border-radius: 10%;
+}
+.t2main {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+.t3main{
+    float: right;
+    size: 2em;
+    width: 100px;
+    background-color: green;
+    border-radius: 2px;
+}
+.t4main {
+    float: left;
+    font-size: 1em;
+}
+.bg-modal{
+    margin-right: 10px;
+    margin-left: 70pc;
+    position: absolute;
+    position: fixed;
+    width: 229px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 62.5px;
+    background-color: rgba(0, 245, 0, 0.322);
+    display: none;
+    color: white;
+}
+.bg-close{
+    font-size: 1.6em;
+    float: right;
+    transform: rotateX(45deg);
+    cursor: pointer;
+    display: block;
+}
+.bg-content{
+    font-size: 1em;
+    font-style: oblique;
+    font-family: cursive;
+    text-decoration: none;
+    display: block;
+}
+.bg-content a{
+    text-decoration: none;
+    font-size: 1.9em;
+    color: white;
+}
+.bg-content a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+.bg-content hr{
+    width: 100px;
+}
+.si-modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    display: none;
+}
+.si-content{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.si-close{
+    float: right;
+    cursor: pointer;
+}
+.si-pic{
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+.si-content hr {
+    width: 225px;
+    margin: 10px;
+}
+.si-content input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.si-content label{
+    font-size: 1em;
+    font-family: cursive;
+}
+.si-content button{
+    width: 60%;
+    font-size: 1.5em;
+}
+#main2 {
+    display: flex;
+    flex-direction: row;
+
+}
+button:hover{
+    border: 1px border green;
+    background-color: white;
+    color: green;
+}
+@keyframes fade-in{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
