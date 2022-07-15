@@ -5,7 +5,29 @@
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    animation: fade-in 755ms ease-in-out;
+    animation: fade-in 755ms ease-in-out;    
+    background-image: url(./Images/bg-intro-desktop.png);
+}
+#loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#loading{
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top: 10px solid green;
+    height: 87px;
+    width: 87px;
+    animation: rotate 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    00%{transform: rotate(360deg);}
 }
 .pic-1fhed{
     height: 50px;
@@ -140,9 +162,9 @@ button{
     color: white;
 }
 .bg-close{
-    font-size: 1.6em;
+    font-size: 2.5em;
     float: right;
-    transform: rotateX(45deg);
+    transform: rotate(45deg);
     cursor: pointer;
     display: block;
 }
@@ -161,6 +183,9 @@ button{
 .bg-content a:hover{
     text-decoration: underline;
     color: lightblue;
+}
+.bg-content ul li{
+    list-style: none;
 }
 .bg-content hr{
     width: 100px;
@@ -187,6 +212,8 @@ button{
 }
 .si-close{
     float: right;
+    transform: rotate(45deg);
+    font-size: 3.4em;
     cursor: pointer;
 }
 .si-pic{
@@ -220,6 +247,15 @@ button:hover{
     border: 1px border green;
     background-color: white;
     color: green;
+}
+.bg-close:hover{
+    color: green;
+}
+.si-close:hover{
+    color: green;
+}
+.lab{
+    margin: 0px 15px;
 }
 @keyframes fade-in{
     from{opacity: 0;}
